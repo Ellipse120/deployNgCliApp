@@ -1,0 +1,25 @@
+@media (min-width: 768px) {
+  .bs-docs-footer {
+    text-align: left;
+  }
+}
+
+.bs-docs-footer {
+  padding: 50px 0;
+}
+
+.bs-docs-footer-links {
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.copy-right {
+  background-color: #0098ea;
+  position: relative;
+  line-height: 30px;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  font-family: 微软雅黑, sans-serif;
+  padding: 1% 0;
+}
