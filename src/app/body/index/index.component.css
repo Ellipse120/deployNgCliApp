@@ -1,0 +1,17 @@
+.index-item-main {
+
+}
+
+.index-item-main2 {
+
+}
+
+.index-item-main3 {
+
+}
+
+.index-item-main4 {
+  width: 100%;
+  background-image: url("../../../assets/images/main4-bg.png");
+  background-size: 100% 25%, contain, 3em;
+}

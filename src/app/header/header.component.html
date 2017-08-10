@@ -1,20 +1,28 @@
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a href="/index">
-        <img src="../../favicon.ico" alt="">
-      </a>
-    </div>
-
-    <div class="collapse navbar-collapse">
-      <ul class="nav navbar-nav pull-right">
-        <li class="active"><a href="/index">首页</a></li>
-        <li class=""><a href="/index">关于金时</a></li>
-        <li class=""><a href="/index">产品和服务</a></li>
-        <li class=""><a href="/index">典型客户</a></li>
-        <li class=""><a href="/index">品牌中心</a></li>
-        <li><a href="#">登录</a></li>
-      </ul>
+<header>
+  <div class="container" style="padding: 1% 3%;">
+    <div style="padding: 0 1%">
+      <div>
+        <div class="navbar-header">
+          <button aria-controls="bs-navbar" class="navbar-toggle" data-toggle="collapse">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="/index">
+            <img src="../../assets/images/logo.png" title="返回首页" alt="金时征信">
+          </a>
+        </div>
+      </div>
+      <nav class="collapse navbar-collapse clearfix">
+        <ul class="nav navbar-nav navbar-right" style="padding-top: 10px;">
+          <li class=""><a routerLink="/index">首页</a></li>
+          <li class=""><a routerLink="/about">关于金时</a></li>
+          <li class=""><a routerLink="/product">产品和服务</a></li>
+          <li class=""><a routerLink="/customer">典型客户</a></li>
+          <li><a href="#">登录</a></li>
+        </ul>
+      </nav>
     </div>
   </div>
-</nav>
+</header>
