@@ -7,11 +7,12 @@
 }
 
 .index-item-main3 {
-
+  background-image: url("../../../assets/images/main3.png");
+  background-size: 100% 100%, contain, 3em;
 }
 
 .index-item-main4 {
   width: 100%;
   background-image: url("../../../assets/images/main4-bg.png");
-  background-size: 100% 25%, contain, 3em;
+  background-size: 100% 100%, contain, 3em;
 }

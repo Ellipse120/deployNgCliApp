@@ -1,0 +1,19 @@
+.color-black {
+  color: #000;
+  display: inline-block;
+}
+
+.login-a {
+  background-color: rgb(109, 192, 247);
+  color: rgb(66, 66, 66);
+}
+
+.login-li {
+  padding-left: 50px;
+}
+
+@media (max-width: 768px) {
+  .login-li {
+    padding-left: 0;
+  }
+}
