@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, NavigationStart, Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +8,29 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  headerStyle = {};
+
+  constructor(private router: Router) {
+  }
 
   ngOnInit() {
+    this.setStyle();
+  }
+
+  setStyle() {
+    this.router.events.subscribe(event => {
+      if (event instanceof NavigationStart) {
+        if (event.url.includes('/index')) {
+          this.headerStyle = {
+            position: 'absolute'
+          };
+        } else {
+          this.headerStyle = {
+            position: 'relative'
+          };
+        }
+      }
+    });
   }
 
 }
