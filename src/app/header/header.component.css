@@ -36,7 +36,14 @@
 }
 
 .header-index:hover, .header-index:focus {
+  cursor: pointer;
+  /*color: #ffffff;*/
   /*background-color: white;*/
   /*color: black;*/
   /*padding: 24px 10px;*/
+}
+
+.header-menu:hover, .header-menu:focus {
+  cursor: pointer;
+  color: #39baf6;
 }
