@@ -45,5 +45,5 @@
 
 .header-menu:hover, .header-menu:focus {
   cursor: pointer;
-  color: #39baf6;
+  /*color: #39baf6;*/
 }

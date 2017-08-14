@@ -8,7 +8,7 @@ import { ActivatedRoute, NavigationStart, Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
 
-  headerStyle = {};
+  headerStyle = {position: 'absolute'};
 
   constructor(private router: Router) {
   }
