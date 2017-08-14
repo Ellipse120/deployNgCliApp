@@ -1,3 +1,10 @@
 .font-color {
-  color: rgb(81,164,245);
+  color: rgb(81, 164, 245);
+}
+
+.about-team {
+  height: 320px;
+  background-image: url('../../../assets/images/about-4.png');
+  max-width: 100%;
+  background-size: 100% 100%, contain, 3em
 }
