@@ -10,6 +10,7 @@
 }
 
 .product-table-td {
+  width: 20%;
   padding: 0;
   vertical-align: middle;
   border-top: none;
