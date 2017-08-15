@@ -1,3 +1,16 @@
 .font-color {
   color: rgb(81,164,245);
 }
+
+.product-credit-font-size {
+  padding: 0 20px;
+  text-align: left;
+  font-size: .8em;
+  max-width: 100%;
+}
+
+.product-table-td {
+  padding: 0;
+  vertical-align: middle;
+  border-top: none;
+}
