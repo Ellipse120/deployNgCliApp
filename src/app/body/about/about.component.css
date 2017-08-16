@@ -1,5 +1,5 @@
 .font-color {
-  color: rgb(81, 164, 245);
+  color: rgb(76, 193, 244);
 }
 
 .about-team {
@@ -7,4 +7,17 @@
   background-image: url('../../../assets/images/about-4.png');
   max-width: 100%;
   background-size: 100% 100%, contain, 3em
+}
+
+.about-line {
+  height: 1px;
+  width: 20%;
+  background: rgba(76, 193, 244, 0.5);
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.about-line-text {
+  padding:0 2em;
+  color: rgba(76, 193, 244, 0.5);
 }

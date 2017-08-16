@@ -1,5 +1,5 @@
 .font-color {
-  color: rgb(81,164,245);
+  color: rgb(76, 193, 244);
 }
 
 .product-credit-font-size {
@@ -14,4 +14,22 @@
   padding: 0;
   vertical-align: middle;
   border-top: none;
+}
+
+.product-line {
+  height: 1px;
+  width: 20%;
+  background: rgba(76, 193, 244, 0.5);
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.product-line-text {
+  padding: 0 2em;
+  color: rgba(76, 193, 244, 0.5);
+}
+
+.product-line-text-p {
+  padding: 1% 10%;
+  color: #000;
 }
