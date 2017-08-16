@@ -40,7 +40,7 @@
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
-  filter: drop-shadow(1px 1px 5px blue)
+  filter: drop-shadow(1px 1px 5px rgb(76, 193, 244))
 }
 
 .index-caption {
