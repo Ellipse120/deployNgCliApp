@@ -4,33 +4,23 @@
       <div>
         <div class="navbar-header">
           <div class="visible-xs">
-            <div class="b-nav">
-              <li><a class="b-link b-link--active" routerLink="/index">首页</a></li>
-              <li><a class="b-link" routerLink="/about">关于金时</a></li>
-              <li><a class="b-link" routerLink="/product">产品和服务</a></li>
-              <li><a class="b-link" routerLink="/customer">典型客户</a></li>
-              <li><a class="b-link" href="http://biz.jdcszx.com" target="_blank">登录</a></li>
-            </div>
 
-            <div class="b-container">
-              <div class="b-menu">
-                <div class="b-bun b-bun--top"></div>
-                <div class="b-bun b-bun--mid"></div>
-                <div class="b-bun b-bun--bottom"></div>
-              </div>
+            <button aria-controls="bs-navbar" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle Navigation</span>
+              <span class="icon-bar" style="background-color: black"></span>
+              <span class="icon-bar" style="background-color: black"></span>
+              <span class="icon-bar" style="background-color: black"></span>
+            </button>
 
-              <!-- Burger-Brand -->
-              <!--<a href="#" class="b-brand">Index</a>-->
-            </div>
           </div>
           <div>
             <a routerLink="/index">
-              <img src="../../assets/images/logo.png" style="max-height: 100%;max-width: 100%;" title="返回首页" alt="金时征信">
+              <img src="../../assets/images/logo.png" class="header-logo" title="返回首页" alt="金时征信">
             </a>
           </div>
         </div>
       </div>
-      <div class="collapse navbar-collapse clearfix hidden-xs" id="bs-example-navbar-collapse-1">
+      <div class="collapse navbar-collapse clearfix" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right" style="padding-top: 10px;">
           <li routerLink="/index" routerLinkActive="active-index"><a class="color-black header-index">首页</a></li>
           <li routerLink="/about" routerLinkActive="active"><a class="color-black header-menu">关于金时</a></li>
@@ -39,8 +29,6 @@
           <li class="login-li"><a href="http://biz.jdcszx.com" target="_blank" class="login-a">登录</a></li>
         </ul>
       </div>
-
-
 
     </div>
   </div>

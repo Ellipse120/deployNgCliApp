@@ -16,9 +16,21 @@
   padding-left: 50px;
 }
 
+.header-logo {
+  max-height: 80%;
+  max-width: 80%;
+}
+
 @media (max-width: 768px) {
   .login-li {
     padding-left: 0;
+  }
+
+  .header-logo {
+    max-height: 30%;
+    max-width: 30%;
+    height: 13%;
+    width: 13%;
   }
 }
 
