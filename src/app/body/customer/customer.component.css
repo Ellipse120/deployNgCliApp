@@ -1,5 +1,5 @@
 .font-color {
-  color: rgb(81, 164, 245);
+  color: rgb(76, 193, 244);
 }
 
 @media (min-width: 768px) {
@@ -8,4 +8,17 @@
     color: #333333;
     width: 200%;
   }
+}
+
+.customer-line {
+  height: 1px;
+  width: 30%;
+  background: rgba(76, 193, 244, 0.5);
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.customer-line-text {
+  padding:0 2em;
+  color: rgba(76, 193, 244, 0.5);
 }
