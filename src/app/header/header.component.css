@@ -4,6 +4,11 @@
   padding: 15px 20px;
 }
 
+.color-black-mobile {
+  color: #000;
+  display: inline-block;
+}
+
 .login-a {
   background-color: rgb(109, 192, 247);
   color: rgb(66, 66, 66);
@@ -27,19 +32,31 @@
   }
 
   .header-logo {
-    max-height: 30%;
-    max-width: 30%;
-    height: 13%;
-    width: 13%;
+    max-height: 100%;
+    max-width: 100%;
+    /*height: 13%;*/
+    /*width: 13%;*/
   }
 }
 
-.nav>li>a:focus, .nav>li>a:hover {
+.header-bg-color {
+  background: rgb(125, 185, 232);
+  background: -moz-linear-gradient(45deg, rgba(125, 185, 232, 1) 44%, rgba(41, 137, 216, 1) 55%, rgba(41, 137, 216, 1) 55%, rgba(32, 124, 202, 1) 80%, rgba(32, 124, 202, 1) 80%, rgba(30, 87, 153, 1) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(125, 185, 232, 1) 44%, rgba(41, 137, 216, 1) 55%, rgba(41, 137, 216, 1) 55%, rgba(32, 124, 202, 1) 80%, rgba(32, 124, 202, 1) 80%, rgba(30, 87, 153, 1) 100%);
+  background: linear-gradient(45deg, rgba(125, 185, 232, 1) 44%, rgba(41, 137, 216, 1) 55%, rgba(41, 137, 216, 1) 55%, rgba(32, 124, 202, 1) 80%, rgba(32, 124, 202, 1) 80%, rgba(30, 87, 153, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7db9e8 ', endColorstr='#1e5799 ', GradientType=1);
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
   background-color: rgb(109, 192, 247);
 }
 
-.nav>li:focus, .nav>li:hover {
+.nav > li:focus, .nav > li:hover {
   outline: none;
+}
+
+.main-nav > li:focus, .main-nav > li:hover {
+  background-color: rgb(109, 192, 247);
 }
 
 .active-index {
@@ -75,6 +92,7 @@
     transform: translate3d(0, 0, 0);
   }
 }
+
 @keyframes slideInLeft {
   0% {
     -webkit-transform: translate3d(250px, 0, 0);
@@ -86,6 +104,7 @@
     transform: translate3d(0, 0, 0);
   }
 }
+
 @-webkit-keyframes slideOutLeft {
   0% {
     -webkit-transform: translate3d(0, 0, 0);
@@ -97,6 +116,7 @@
     visibility: hidden;
   }
 }
+
 @keyframes slideOutLeft {
   0% {
     -webkit-transform: translate3d(0, 0, 0);
@@ -114,9 +134,11 @@
   z-index: 11;
   right: 10%;
 }
+
 .b-nav:not(.open) {
   visibility: hidden;
 }
+
 .b-nav li {
   color: #444444;
   list-style-type: none;
@@ -125,6 +147,7 @@
   -webkit-transform: translateX(-250px);
   transform: translateX(-250px);
 }
+
 .b-nav li:not(.open) {
   -webkit-animation-duration: 0.4s;
   animation-duration: 0.4s;
@@ -133,12 +156,15 @@
   -webkit-animation-name: slideOutLeft;
   animation-name: slideOutLeft;
 }
+
 .b-nav li:first-child {
   padding-top: 120px;
 }
+
 .b-nav.open {
   visibility: visible;
 }
+
 .b-nav.open li {
   -webkit-animation-duration: 0.4s;
   animation-duration: 0.4s;
@@ -152,7 +178,7 @@
   background: transparent;
   border-left: rgba(68, 68, 68, 0) solid 2px;
   color: #444444;
-  font-family:微软雅黑, Helvetica-Neue, Helvetica, Arial, sans-serif;
+  font-family: 微软雅黑, Helvetica-Neue, Helvetica, Arial, sans-serif;
   font-size: 1em;
   font-weight: 300;
   margin-left: 30px;
@@ -161,6 +187,7 @@
   transition: all 0.4s ease;
   width: auto;
 }
+
 .b-link:hover, .b-link--active {
   border-left: #444444 solid 2px;
   padding-left: 30px;
@@ -185,6 +212,7 @@
   width: 60px;
   z-index: 12;
 }
+
 .b-menu:hover {
   border: #444444 solid 2px;
 }
@@ -195,16 +223,19 @@
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
+
 .b-bun--top {
   height: 2px;
   top: 0;
   width: 25px;
 }
+
 .b-bun--mid {
   height: 2px;
   top: 8px;
   width: 25px;
 }
+
 .b-bun--bottom {
   height: 2px;
   top: 16px;
@@ -213,7 +244,7 @@
 
 .b-brand {
   color: white;
-  font-family:微软雅黑, Helvetica-Neue, Helvetica, Arial, sans-serif;
+  font-family: 微软雅黑, Helvetica-Neue, Helvetica, Arial, sans-serif;
   font-size: 24px;
   font-weight: 300;
   margin-left: 30px;
@@ -231,29 +262,35 @@
   top: 20px;
   right: 10%;
 }
+
 .b-container:hover:not(.open) .bun-top,
 .b-container:hover:not(.open) .bun-mid,
 .b-container:hover:not(.open) .bun-bottom {
   background: white;
 }
+
 .b-container.open .b-main {
   border: #444444 solid 2px;
 }
+
 .b-container.open .b-bun--top {
   background: #444444;
   top: 9px;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
 .b-container.open .b-bun--mid {
   opacity: 0;
 }
+
 .b-container.open .b-bun--bottom {
   background: #444444;
   top: 5px;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
+
 .b-container.open .b-brand {
   color: #444444;
 }
