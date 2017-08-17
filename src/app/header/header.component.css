@@ -23,7 +23,7 @@
 }
 
 .nav>li>a:focus, .nav>li>a:hover {
-  background-color: transparent;
+  background-color: rgb(109, 192, 247);
 }
 
 .nav>li:focus, .nav>li:hover {
