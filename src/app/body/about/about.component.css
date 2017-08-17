@@ -9,6 +9,11 @@
   background-size: 100% 100%, contain, 3em
 }
 
+.about-title {
+  font-size: 2em;
+  margin: 0;
+}
+
 .about-line {
   height: 1px;
   width: 20%;
@@ -18,6 +23,16 @@
 }
 
 .about-line-text {
-  padding:0 2em;
+  padding: 0 2em;
   color: rgba(76, 193, 244, 0.5);
+}
+
+@media (max-width: 768px) {
+  .about-advantage-padding {
+    padding-top: 40px;
+  }
+
+  .about-team-padding {
+    margin: 20px 0;
+  }
 }
