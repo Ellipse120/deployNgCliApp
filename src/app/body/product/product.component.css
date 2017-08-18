@@ -2,6 +2,16 @@
   color: rgb(76, 193, 244);
 }
 
+.credit-padding {
+  padding-top: 60px;
+}
+
+@media (max-width: 768px) {
+  .credit-padding {
+    padding-top: 0;
+  }
+}
+
 .product-credit-font-size {
   padding: 0 20px;
   text-align: left;
@@ -32,4 +42,78 @@
 .product-line-text-p {
   padding: 1% 10%;
   color: #333333;
+}
+
+.product-img-bg {
+  max-width: 100%;
+}
+
+.product-title {
+  font-size: 2em;
+  margin: 0;
+  padding-top: 30px;
+}
+
+.table-responsive-border {
+  border: 1px solid #39baf6;
+}
+
+.table-padding {
+  padding-top: 10px;
+}
+
+.table-padding-final {
+  padding-bottom: 10px;
+}
+
+.g-row {
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+}
+
+.g-col {
+  flex-grow: 1;
+  -webkit-flex-grow: 1;
+  flex-basis: 0;
+  -webkit-flex-basis: 0;
+  max-width: 100%;
+  flex-shrink: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.g-col-img {
+  max-width: 100%;
+  max-height: 100%
+}
+
+.product-consult {
+. padding-top: 40 px;
+  margin-top: 60px;
+  background-color: rgb(244, 244, 244);
+}
+
+.product-consult-img {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.product-consult-caption {
+  padding-top: 2%;
+}
+
+.product-consult-font-size {
+  font-size: 3em;
+}
+
+.product-risk {
+  padding-top: 5%;
+}
+
+.product-risk-padding {
+  padding: 10px 5% 5% 5%;
 }
