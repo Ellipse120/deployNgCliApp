@@ -1,3 +1,8 @@
+.footer-border {
+  padding-top: 50px;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.5);
+}
+
 @media (min-width: 768px) {
   .bs-docs-footer {
     text-align: left;
@@ -36,4 +41,21 @@
 .img-size {
   max-width: 50%;
   max-height: 50%;
+}
+
+
+@media (max-width: 768px) {
+  .footer-border {
+    padding-top: 10px;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.5);
+  }
+
+  .copy-right {
+    padding: 10px 0;
+  }
+
+  .font-12 {
+    font-size: 12px;
+    padding: 0;
+  }
 }
