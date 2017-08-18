@@ -1,5 +1,5 @@
 # 金时征信官网开发
-## (www.baidu.com)
+(www.baidu.com)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.7.
 
