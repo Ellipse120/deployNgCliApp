@@ -1,3 +1,7 @@
+.font-32 {
+  font-size: 32px;
+}
+
 .index-item-main {
   background-image: url("../../../assets/images/main3.png");
   -webkit-background-image: url("../../../assets/images/main3.png");
@@ -19,7 +23,7 @@
 
 .index-consult-title {
   margin-bottom: 0;
-  font-size: 2em;
+  font-size: 32px;
 }
 
 .index-consult-text {
