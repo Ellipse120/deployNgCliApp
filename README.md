@@ -1,5 +1,6 @@
 # 金时征信官网开发
-Intranet URL: [Golden Era](http://jinshi-site.local.cjzc.net.cn/index)
+Intranet URL: [Golden Era Credit](http://jinshi-site.local.cjzc.net.cn/index)
+Internet URL: [Golden Era Credit](http://www.golden-era-credit.com)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.7.
 
