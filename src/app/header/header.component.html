@@ -45,14 +45,15 @@
           </div>
         </div>
       </div>
-      <div class="collapse navbar-collapse clearfix" id="bs-example-navbar-collapse-1">
+      <div class="navbar-collapse clearfix my-menu" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right main-nav text-center">
           <li routerLink="/index" routerLinkActive="active" (click)="menuHidden($event)" class="header-index"><a class="color-black">首页</a></li>
           <li routerLink="/about" routerLinkActive="active" (click)="menuHidden($event)" class="header-menu"><a class="color-black">关于金时</a></li>
           <li routerLink="/product" routerLinkActive="active" (click)="menuHidden($event)" class="header-menu"><a class="color-black">产品和服务</a></li>
           <li routerLink="/customer" routerLinkActive="active" (click)="menuHidden($event)" class="header-menu"><a class="color-black">典型客户</a></li>
-          <li class="login-li header-menu"><a href="http://biz.golden-era-credit.com" target="_blank"
-                                              class="color-black-mobile">登录</a></li>
+          <li class="login-li header-menu" (click)="menuHidden($event)">
+            <a href="http://biz.golden-era-credit.com" target="_blank" class="color-black-mobile">登录</a>
+          </li>
         </ul>
       </div>
     </div>

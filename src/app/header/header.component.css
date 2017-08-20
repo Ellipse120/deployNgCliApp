@@ -294,3 +294,9 @@
 .b-container.open .b-brand {
   color: #444444;
 }
+
+.my-menu {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
