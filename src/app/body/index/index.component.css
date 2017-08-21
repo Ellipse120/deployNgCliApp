@@ -21,6 +21,11 @@
   max-height: 100%
 }
 
+.index-risk-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .index-credit-padding {
   padding: 60px 0 30px 0;
 }
@@ -124,4 +129,25 @@
 
 .carousel-indicators {
   bottom: 25px;
+}
+
+.index-risk-thumbnail-margin {
+  margin: 4% 10% 2% 10%
+}
+
+.index-risk-a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.index-risk-a > div {
+  padding-top: 30px;
+}
+
+.index-risk-padding {
+  padding-bottom: 50px;
+}
+
+.index-risk-padding > div {
+  padding:0 60px;
 }
