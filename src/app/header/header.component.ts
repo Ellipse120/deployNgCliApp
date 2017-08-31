@@ -8,7 +8,7 @@ import { NavigationStart, Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
 
-  headerStyle = {position: 'absolute'};
+  headerStyle = {'position': 'absolute'};
 
   constructor(private router: Router) {
   }
@@ -20,13 +20,13 @@ export class HeaderComponent implements OnInit {
   setStyle() {
     this.router.events.subscribe(event => {
       if (event instanceof NavigationStart) {
-        if (event.url.includes('/index')) {
+        if (event.url.includes('/index') || event.url === '/') {
           this.headerStyle = {
-            position: 'absolute'
+            'position': 'absolute'
           };
         } else {
           this.headerStyle = {
-            position: 'relative'
+            'position': 'relative'
           };
         }
       }
