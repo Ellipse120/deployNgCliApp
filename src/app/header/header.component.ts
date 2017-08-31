@@ -36,11 +36,6 @@ export class HeaderComponent implements OnInit {
   menuClick(e) {
     const menu = document.getElementById('bs-example-navbar-collapse-1');
 
-    // if (menu.style.display === 'block') {
-    //   menu.style.display = 'none';
-    // } else {
-    //   menu.style.display = 'block';
-    // }
     if (menu.style.height === '258px') {
       menu.style.height = '0';
     } else {
@@ -51,9 +46,6 @@ export class HeaderComponent implements OnInit {
   menuHidden(event) {
     const menu = document.getElementById('bs-example-navbar-collapse-1');
 
-    // if (menu.style.display === 'block') {
-    //   menu.style.display = 'none';
-    // }
     if (menu.style.height === '258px') {
       menu.style.height = '0';
     }
