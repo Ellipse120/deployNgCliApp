@@ -7,10 +7,10 @@ import { IndexComponent } from './body/index/index.component';
 
 const routes: Routes = [
   {path: 'index', component: IndexComponent},
-  {path: '', redirectTo: 'index', pathMatch: 'full'},
   {path: 'about', component: AboutComponent},
   {path: 'product', component: ProductComponent},
   {path: 'customer', component: CustomerComponent},
+  {path: '', redirectTo: 'index', pathMatch: 'full'},
   {path: '**', redirectTo: 'index'}
 ];
 
