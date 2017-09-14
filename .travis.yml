@@ -1,0 +1,18 @@
+dist: trusty
+sudo: false
+
+language: node_js
+node_js:
+  - "6"
+
+  cache:
+    - ./node_modules
+
+  install:
+    - npm install
+
+  script:
+    # User Chromium instead of Chrome.
+    - export CHROME_BIN=chromium-browser
+    - xvfb-run -a npm run test -- --single-run
+    - xvfb-run -a npm run e2e -- --no-progress
