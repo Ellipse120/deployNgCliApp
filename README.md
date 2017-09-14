@@ -1,4 +1,5 @@
-# 金时征信官网开发
+[![Build Status](https://travis-ci.org/Ellipse120/deployNgCliApp.svg?branch=master)](https://travis-ci.org/Ellipse120/deployNgCliApp)
+# 
 Intranet URL: [Golden Era Credit](http://jinshi-site.local.cjzc.net.cn/index)
 Internet URL: [Golden Era Credit](http://www.golden-era-credit.com)
 
