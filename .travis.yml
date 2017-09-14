@@ -5,14 +5,15 @@ language: node_js
 node_js:
   - "6"
 
-  cache:
-    - ./node_modules
+cache:
+  directories:
+     - ./node_modules
 
-  install:
-    - npm install
+install:
+  - npm install
 
-  script:
-    # User Chromium instead of Chrome.
-    - export CHROME_BIN=chromium-browser
-    - xvfb-run -a npm run test -- --single-run
-    - xvfb-run -a npm run e2e -- --no-progress
+script:
+  # Use Chromium instead of Chrome.
+  - export CHROME_BIN=chromium-browser
+  - xvfb-run -a npm run test -- --single-run --no-progress --browser=ChromeNoSandbox
+  - xvfb-run -a npm run e2e -- --no-progress --config=protractor-ci.conf.js
