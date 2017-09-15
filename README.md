@@ -1,6 +1,5 @@
 [![Build Status](https://travis-ci.org/Ellipse120/deployNgCliApp.svg?branch=master)](https://travis-ci.org/Ellipse120/deployNgCliApp)
 # 
-Intranet URL: [Golden Era Credit](http://jinshi-site.local.cjzc.net.cn/index)
 Internet URL: [Golden Era Credit](http://www.golden-era-credit.com)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.7.
@@ -32,4 +31,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Contact Me
 
-Mail <lusai@cjzc.net.cn>
+Mail <ellipse120@gmail.com>
