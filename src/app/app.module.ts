@@ -9,6 +9,7 @@ import { AboutComponent } from './body/about/about.component';
 import { ProductComponent } from './body/product/product.component';
 import { CustomerComponent } from './body/customer/customer.component';
 import { AppRoutingModule } from './app-routing.module';
+import { TestComponent } from './body/test/test.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AppRoutingModule } from './app-routing.module';
     IndexComponent,
     AboutComponent,
     ProductComponent,
-    CustomerComponent
+    CustomerComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
